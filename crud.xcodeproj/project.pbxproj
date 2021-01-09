@@ -15,6 +15,7 @@
 		910D2C5D25A3F72900987BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910D2C5B25A3F72900987BB4 /* LaunchScreen.storyboard */; };
 		91306BEA25A6871C00AD110C /* RegistrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91306BE925A6871C00AD110C /* RegistrarViewController.swift */; };
 		91306BEE25A68BBD00AD110C /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91306BED25A68BBD00AD110C /* InicioViewController.swift */; };
+		91B5054625A9569000824823 /* ListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5054525A9569000824823 /* ListaViewController.swift */; };
 		91C3AA5E25A3FEB600FF88CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91C3AA5D25A3FEB600FF88CB /* GoogleService-Info.plist */; };
 		9598EA29218C7CE8F101FA86 /* Pods_crud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9BBBB3E4B0349A1B566810 /* Pods_crud.framework */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		910D2C5E25A3F72900987BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91306BE925A6871C00AD110C /* RegistrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarViewController.swift; sourceTree = "<group>"; };
 		91306BED25A68BBD00AD110C /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		91B5054525A9569000824823 /* ListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaViewController.swift; sourceTree = "<group>"; };
 		91C3AA5D25A3FEB600FF88CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				91C3AA5D25A3FEB600FF88CB /* GoogleService-Info.plist */,
 				91306BE925A6871C00AD110C /* RegistrarViewController.swift */,
 				91306BED25A68BBD00AD110C /* InicioViewController.swift */,
+				91B5054525A9569000824823 /* ListaViewController.swift */,
 			);
 			path = crud;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B5054625A9569000824823 /* ListaViewController.swift in Sources */,
 				910D2C5525A3F72700987BB4 /* ViewController.swift in Sources */,
 				910D2C5125A3F72700987BB4 /* AppDelegate.swift in Sources */,
 				91306BEA25A6871C00AD110C /* RegistrarViewController.swift in Sources */,

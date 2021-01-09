@@ -37,5 +37,13 @@ class ViewController: UIViewController {
     }
     
 }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "inicio"{
+            let usuario = segue.destination as! InicioViewController
+            usuario.email = usuarioText.text!
+            usuario.pass = contraText.text!
+           
+        }
+    }
 
 }

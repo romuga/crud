@@ -23,7 +23,8 @@ class RegistrarViewController: UIViewController {
                 (result, error) in
                 
                 if let result = result, error == nil{
-                    self.navigationController?.pushViewController(InicioViewController(email: result.user.email!, provider: .basic), animated: true)
+                   // self.navigationController?.pushViewController(InicioViewController(email: result.user.email!, provider: .basic), animated: true)
+                    self.performSegue(withIdentifier: "inicio", sender: InicioViewController.self)
                 }else{
                     let alert = UIAlertController(title: "Error", message: "Error al registrar al usuario", preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "Aceptar", style: .default))
@@ -32,6 +33,14 @@ class RegistrarViewController: UIViewController {
                 }
             }
             
+        }
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "inicio"{
+            let usuario = segue.destination as! InicioViewController
+            usuario.email = email.text!
+            usuario.pass = password.text!
+           
         }
     }
     
